@@ -12,6 +12,8 @@ Before getting started with the project, please take some time to read *and* und
 
 *   [Multiple components](https://facebook.github.io/react/docs/multiple-components.html)
 
+*   [React components lifecycle](https://facebook.github.io/react/docs/component-specs.html) **!important**
+
 *   [The React way: getting started tutorial](https://blog.risingstack.com/the-react-way-getting-started-tutorial/)
 
     **NOTE**: we will not be building a so-called "isomorphic" application so you may skip that part of the article.
