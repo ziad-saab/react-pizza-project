@@ -1,0 +1,7 @@
+/* This is a bit better than setting border-box everywhere */
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
