@@ -144,7 +144,7 @@ var pizzas = [
   {
     name: 'Cheese Pizza',
     cheese: 'mozzarella',
-    toppings: []
+    toppings: [],
     price: 5
   },
   {
