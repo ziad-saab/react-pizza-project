@@ -1,6 +1,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-
+// App components
+var Order = require('./components/order');
+var Choose = require('./components/choose');
+var Custom = require('./components/custom');
+var Done = require('./components/done');
+// global state
+var appState = require('./appState.js');
+// Router components
 var ReactRouter = require('react-router');
 var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
@@ -16,6 +23,9 @@ var Navigation = React.createClass({
         <ul>
           <li>
             <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/order">Order</Link>
           </li>
           <li>
             <Link to="/about">About Us</Link>
@@ -104,6 +114,10 @@ var routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
+      <Route path="order" component={Order}/>
+      <Route path="choose" component={Choose}/>
+      <Route path="custom" component={Custom}/>
+      <Route path="done" component={Done}/>
       <Route path="about" component={About}/>
       <Route path="team" component={Team}/>
       <Route path="*" component={NotFound}/>
