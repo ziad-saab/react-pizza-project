@@ -1,6 +1,6 @@
 import React from 'react';
 import { browserHistory, Link } from 'react-router';
-import appState from '../appState.js';
+import appState from '../appState';
 
 var Done = React.createClass({
 

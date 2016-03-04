@@ -1,7 +1,8 @@
 import React from 'react';
 import { browserHistory, Link } from 'react-router';
 import CheckboxGroup from 'react-checkbox-group';
-import appState from '../appState.js';
+import appState from '../appState';
+import { cheeses, toppings } from '../options';
 
 var Custom = React.createClass({
 
@@ -115,43 +116,5 @@ var Custom = React.createClass({
     browserHistory.push('/done');
   },
 });
-
-
-
-var cheeses = [
-  {
-    name: 'mozzarella',
-    displayName: 'Mozzarella cheese',
-    price: 0
-  },
-  {
-    name: 'parmesan',
-    displayName: 'Parmigiano Reggiano',
-    price: 100
-  }
-];
-
-var toppings = [
-  {
-    name: 'pepperoni',
-    displayName: 'Pepperoni',
-    price: 1
-  },
-  {
-    name: 'anchovies',
-    displayName: 'Anchovies',
-    price: 10
-  },
-  {
-    name: 'lobster',
-    displayName: 'Lobstah',
-    price: 25
-  },
-  {
-    name: 'truffle oil',
-    displayName: 'Mmmm... truffle oillll',
-    price: 100
-  }
-];
 
 module.exports = Custom;

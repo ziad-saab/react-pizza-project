@@ -1,6 +1,6 @@
 import React from 'react';
 import { browserHistory } from 'react-router';
-import appState from '../appState.js';
+import appState from '../appState';
 
 var Order = React.createClass({
 

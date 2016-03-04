@@ -1,21 +1,7 @@
 import React from 'react';
 import { browserHistory, Link } from 'react-router';
-import appState from '../appState.js';
-
-var pizzas = [
-  {
-    name: 'Cheese Pizza',
-    cheese: 'mozzarella',
-    toppings: [],
-    price: 5
-  },
-  {
-    name: 'The Monster',
-    cheese: 'parmesan',
-    toppings: ['anchovies', 'lobster', 'truffle oil'],
-    price: 100
-  }
-];
+import appState from '../appState';
+import { pizzas } from '../options';
 
 var Choose = React.createClass({
 
