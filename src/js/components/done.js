@@ -1,5 +1,6 @@
 import React from 'react';
 import { browserHistory, Link } from 'react-router';
+import fetch from 'isomorphic-fetch';
 import appState from '../appState';
 
 var Done = React.createClass({
@@ -28,9 +29,14 @@ var Done = React.createClass({
         {customerHtml}
         <br/>
         <p><strong>Chosen pizza:</strong></p>
-        {pizzaHtml}
+        {pizzaHtml}<br/>
+        <button type='button' onClick={this.handleOrder}> Order now! </button>
       </div>
     );
+  },
+
+  handleOrder() {
+    fetch();
   }
 });
 
