@@ -1,5 +1,6 @@
-Building a pizza ordering application with React
-================================================
+# Building a pizza ordering application with React
+![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) 
+
 For this project, we are going to build a pizza ordering application with React. Optionally, our application will be able to communicate with the server to place the order! Unfortunately, no pizza will be had unless you make it yourself.
 
 Before getting started with the project, please take some time to read *and* understand the following articles:
