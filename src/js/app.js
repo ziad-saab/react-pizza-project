@@ -48,7 +48,7 @@ var Home = React.createClass({
     return (
       <div>
         <h1>Homepage!</h1>
-        <p>Welcome to the homepage! Try to click on a link in the nav, then click the browser's back button.</p>
+        <p>Welcome to the homepage! Try to click on a link in the nav, then click the browser back button.</p>
       </div>
     );
   }
