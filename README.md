@@ -69,22 +69,32 @@ The app will have the following routes:
   *   `/`
 
     Welcome page. On this page, you should welcome the user to your Pizza place and have a link to `/order`
+    
+    ![home](images/home.jpg)
 
   *   `/order`
 
     Order creation page. On this page, you will have a form for the user to enter their name, email, phone number and home address (street address, city, province and postal code). A "Next" button will be displayed. Upon clicking on "Next", you should remember the user's address somewhere and move to the next step
+    
+    ![order](images/order.jpg)
 
   *   `/choose`
 
     Pizza choosing page. On this page, the user will be able to choose among a variety of pizzas. You will present a list of pre-made pizzas for the user to choose from, as well as a "custom pizza" option.
+    
+    ![](/images/choose.jpg)
 
   *   `/custom`
 
     If the user chooses the "custom pizza" option, they wil get to this page. Here they will be presented with a list of toppings to choose from, as well as a list of cheeses. **More on that later**
+    
+    ![](/images/custom.jpg)
 
   * `/done`
 
     The order confirmation page. If the user chooses a pre-made pizza or finishes their custom pizza, they will get to this page. This page will display the order confirmation, which consists of the user's name, address, their choice of pizza and the price. **More on the price later**
+    
+    ![](/images/done.jpg)
 
 ### Cheeses
 The cheeses will be an array of cheese objects like so:
