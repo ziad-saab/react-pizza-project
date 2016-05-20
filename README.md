@@ -25,7 +25,7 @@ Before getting started with the project, please take some time to read *and* und
 
     **NOTE**: make sure to reproduce each of the five examples on your own!
 
-    **NOTE 2**: in the last example, the tutorial uses jQuery to do AJAX. Try to do it with [`isomorphic-fetch`](https://github.com/matthew-andrews/isomorphic-fetch)
+    **NOTE 2**: in the last example, the tutorial uses jQuery to do AJAX. Try to do it with [`isomorphic-fetch`](https://github.com/matthew-andrews/isomorphic-fetch) or [`superagent`](https://github.com/visionmedia/superagent)
 
 *   [Introduction to `react-router`](https://github.com/reactjs/react-router/blob/master/docs/Introduction.md)
 
