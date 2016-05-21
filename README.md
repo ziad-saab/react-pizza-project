@@ -1,7 +1,9 @@
 # Building a pizza ordering application with React
 ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) ![pi](images/pizza.jpg) 
 
-![decodemtl](https://www.decodemtl.com/assets/images/decodemtl-logo-black.png)
+<p align="center">
+   <img src="https://www.decodemtl.com/assets/images/decodemtl-logo-black.png">
+</p>
 
 For this project, we are going to build a pizza ordering application with React. Optionally, our application will be able to communicate with the server to place the order! Unfortunately, no pizza will be had unless you make it yourself.
 
